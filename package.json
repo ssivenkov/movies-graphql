@@ -2,7 +2,7 @@
   "name": "movies-graphql",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ssivenkov.github.io/movies-GraphQL",
+  "homepage": "https://ssivenkov.github.io/movies-graphql",
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@emotion/react": "^11.10.4",
