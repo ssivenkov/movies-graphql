@@ -1,0 +1,26 @@
+query Movies($before: String, $after: String, $first: Int, $last: Int, $size: PosterSize!) {
+  movies {
+    topRated(after: $after, before: $before, first: $first, last: $last) {
+      edges {
+        cursor,
+        node {
+          id
+          homepage
+          title
+          images {
+            posters {
+              image(size: $size)
+            }
+          }
+        }
+      }
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        startCursor
+        endCursor
+      }
+      totalCount
+    }
+  }
+}

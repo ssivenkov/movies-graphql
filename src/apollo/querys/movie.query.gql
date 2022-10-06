@@ -1,0 +1,18 @@
+query Movie($id: ID!, $size: PosterSize!) {
+  movies {
+    movie(id: $id) {
+      budget,
+      homepage,
+      id,
+      title,
+      overview,
+      poster(size: $size),
+      releaseDate,
+      videos {
+        links {
+          web
+        }
+      }
+    }
+  }
+}
