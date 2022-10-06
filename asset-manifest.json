@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movies-GraphQL/static/css/main.2f99a667.css",
+    "main.js": "/movies-GraphQL/static/js/main.6c1785cb.js",
+    "index.html": "/movies-GraphQL/index.html",
+    "static/media/typeDefs.gql": "/movies-GraphQL/static/media/typeDefs.453c9246129319c1d98a.gql",
+    "main.2f99a667.css.map": "/movies-GraphQL/static/css/main.2f99a667.css.map",
+    "main.6c1785cb.js.map": "/movies-GraphQL/static/js/main.6c1785cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f99a667.css",
+    "static/js/main.6c1785cb.js"
+  ]
+}
